@@ -62,9 +62,11 @@ if [[ "$(command -v make)" ]]; then
 fi
 
 echo "Installing repo"
+
 mkdir ~/bin
 PATH=~/bin:$PATH
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
+
 git config --global user.name "Monu"
 git config --global user.email "monuohlyan@motherfuc.kr"
