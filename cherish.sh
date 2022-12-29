@@ -18,5 +18,4 @@ export BUILD_HOSTNAME=Loda
 make bacon -j8
 
 # Upload
-alias devuploads='bash <(curl -s https://devuploads.com/upload.sh)'
-devuploads -f /root/c/out/target/product/veux/Cherish-OS*.zip -k 60mkrqr5i8wl69d4sf
+bash <(curl -s https://devuploads.com/upload.sh) -f /root/c/out/target/product/veux/Cherish-OS*.zip -k 60mkrqr5i8wl69d4sf
